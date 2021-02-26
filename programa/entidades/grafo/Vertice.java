@@ -29,7 +29,7 @@ public class Vertice implements Comparable<Vertice>{
 	
 	
 	@Override
-	public String toString() {//tramforma o ponto em um Letra
+	public String toString() {//manda para da r print na tela
 		return this.ponto;
 	}
 	
