@@ -53,7 +53,7 @@ public class grafo {
 		return this.listaDeAdjacencia;
 	}
 	
-	public static List<Aresta> getArestasAdjacentes(Vertice v){
+	public List<Aresta> getArestasAdjacentes(Vertice v){
 		return this.listaDeAdjacencia.get(v);
 	}
 	
